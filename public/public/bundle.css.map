@@ -1,0 +1,12 @@
+{
+  "version": 3,
+  "file": "bundle.css",
+  "sources": [
+    "../App.svelte"
+  ],
+  "sourcesContent": [
+    "<script>\n  import Button from \"/components/Button.svelte\";\n  import Logo from \"/components/Logo.svelte\";\n  import Header from \"/components/Header.svelte\";\n  import Footer from \"/components/Footer.svelte\";\n</script>\n\n<style>\n  main {\n    font-family: sans-serif;\n    text-align: center;\n    max-width: 960px;\n  }\n</style>\n\n<main>\n  <Header />\n\t<h1>Salut Max</h1>\n\t<h2>Ceci est ma première app Svelte</h2>\n  <p>Il faut dire que je me suis basé sur un template Codesanbox. Mais j'ai fait des petites modifications.</p>\n  <Button />\n  <Footer />\n</main>"
+  ],
+  "names": [],
+  "mappings": "AAQE,IAAI,eAAC,CAAC,AACJ,WAAW,CAAE,UAAU,CACvB,UAAU,CAAE,MAAM,CAClB,SAAS,CAAE,KAAK,AAClB,CAAC"
+}
